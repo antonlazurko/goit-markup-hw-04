@@ -81,10 +81,35 @@
   flex-direction: column;
   width: 278px;
 }
-.features-link {
-  display: block;
-  padding-bottom: 30px;
+.features-link:hover,
+.features-link:focus {
+  background-color: var(--accent-color);
 }
+.features-link {
+  display: inline-block;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  box-sizing: border-box;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: 1px tomato solid;
+}
+.features-link--details {
+  background-image: url('../images/studio_skills/antenna.svg');
+}
+.features-link--punctuality {
+  background-image: url('../images/studio_skills/clock.svg');
+}
+.features-link--planing {
+  background-image: url('../images/studio_skills/diagram.svg');
+}
+.features-link--modern_technology {
+  background-image: url('../images/studio_skills/astronaut.svg');
+}
+
 .features-description {
 }
 .studio-skills-list .title {
