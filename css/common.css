@@ -135,6 +135,7 @@ img {
 }
 .link-nav {
   display: flex;
+  /* align-items: baseline; */
   margin-left: auto;
 }
 .link-nav .item + .item {
