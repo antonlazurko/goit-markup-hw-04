@@ -141,15 +141,21 @@ img {
   margin-left: 30px;
 }
 .email::before {
-  content: '111';
-  background-size: 16px 12px;
+  display: inline-block;
+  width: 16px;
+  height: 12px;
+  content: '';
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url('../images/mail_logo.svg');
 }
 .tel::before {
-  content: '1';
-  background-size: 10px 15px;
+  display: inline-block;
+  width: 10px;
+  height: 15px;
+  content: '';
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-image: url('../images/smartphone.svg');
