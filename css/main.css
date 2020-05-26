@@ -175,10 +175,14 @@
 /* css для постоянные клиенты */
 .regular-clients-list {
   display: flex;
+  justify-content: space-between;
 }
-.regular-clients .item + .item {
+.client-title {
+  margin-bottom: 50px;
+}
+/* .regular-clients .item + .item {
   margin-left: 30px;
-}
+} */
 .regular-clients .item {
   width: 175px;
 }
@@ -191,14 +195,36 @@
 }
 .client-logo {
   display: inline-block;
+  width: 170px;
+  height: 90px;
   border: 1px solid #afb1b8;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   border-radius: 4px;
   background-size: 44px 44px;
   background-repeat: no-repeat;
   background-position: center;
+}
+.client-logo:hover,
+.client-logo:focus {
+  border: 1px solid var(--accent-color);
+}
+.client-logo--clien1 {
   background-image: url('../images/clients/Client1.svg');
-  outline: 2px solid tomato;
+}
+.client-logo--clien2 {
+  background-image: url('../images/clients/Client2.svg');
+}
+.client-logo--clien3 {
+  background-image: url('../images/clients/Client3.svg');
+}
+.client-logo--clien4 {
+  background-image: url('../images/clients/Client4.svg');
+}
+.client-logo--clien5 {
+  background-image: url('../images/clients/Client5.svg');
+}
+.client-logo--clien6 {
+  background-image: url('../images/clients/Client6.svg');
 }
 
 /* button */
