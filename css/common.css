@@ -307,13 +307,12 @@ img {
   background-color: var(--accent-color);
   color: var(--white-text-color);
 }
-.input-button--submit::after {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
+.svgshka {
   margin-left: 10px;
-  content: '';
-  background-image: url('../images/icon_send.svg');
+}
+.input-button--submit:hover > .svgshka > .plane,
+.input-button--submit:focus > .svgshka > .plane {
+  fill: #ffffff;
 }
 .subscribe {
   display: flex;
