@@ -264,30 +264,30 @@
 .client-logo:focus {
   border: 1px solid var(--accent-color);
 }
-.client-logo--clien1 {
+/* .client-logo--client1 {
   background-size: 44px 44px;
   background-image: url('../images/clients/Client1.svg');
 }
-.client-logo--clien2 {
+.client-logo--client2 {
   background-size: 40px 52px;
   background-image: url('../images/clients/Client2.svg');
 }
-.client-logo--clien3 {
+.client-logo--client3 {
   background-size: 41px 43px;
   background-image: url('../images/clients/Client3.svg');
 }
-.client-logo--clien4 {
+.client-logo--client4 {
   background-size: 80px 42px;
   background-image: url('../images/clients/Client4.svg');
 }
-.client-logo--clien5 {
+.client-logo--client5 {
   background-size: 59px 47px;
   background-image: url('../images/clients/Client5.svg');
 }
-.client-logo--clien6 {
+.client-logo--client6 {
   background-size: 88px 45px;
   background-image: url('../images/clients/Client6.svg');
-}
+} */
 
 /* button */
 .button.hero-button {
