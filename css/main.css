@@ -62,7 +62,7 @@
 
 /* css для наши преишущества */
 
-.studio-skills-list,
+.features-list,
 .what-we-do-list,
 .our-team-list,
 .regular-clients-list {
@@ -73,39 +73,30 @@
   padding: 0px;
 }
 
-.studio-skills-list .item + .item {
+.features-list .item + .item {
   margin-left: 30px;
 }
-.studio-skills-list .item {
+.features-list .item {
   display: flex;
   flex-direction: column;
   width: 278px;
 }
-.studio-skills-list.icon > .antenna {
-  width: 70px;
-  height: 70px;
-}
-.features-link:hover,
-.features-link:focus {
-  background-color: var(--accent-color);
-}
 .features-link {
-  display: inline-block;
+  display: flex;
   margin-bottom: 30px;
   background-color: #f5f4fa;
   width: 270px;
   height: 120px;
   box-sizing: border-box;
-  background-size: 70px;
   background-repeat: no-repeat;
   background-position: center;
   /* outline: 1px tomato solid; */
 }
-.features-link--details {
+.features-link .features-link--details {
   background-image: url('../images/symbol-defs.svg#antenna');
 }
 .features-link--punctuality {
-  background-image: url('../images/logo-svg-sprite/symbol-defs.svg#clock');
+  background-image: url('../images/studio_skills/clock.svg');
 }
 .features-link--planing {
   background-image: url('../images/studio_skills/diagram.svg');
@@ -114,9 +105,7 @@
   background-image: url('../images/studio_skills/astronaut.svg');
 }
 
-.features-description {
-}
-.studio-skills-list .title {
+.features-list .title {
   margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
@@ -125,18 +114,13 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.studio-skills-list .text {
+.features-list .text {
   color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-.studio-skills-list .link:hover,
-.studio-skills-list .link:focus {
-  color: var(--accent-color);
-}
-
 /* css для чем мы занимаемся */
 .section .what-we-do-list .title {
   padding-top: 27px;
@@ -208,7 +192,8 @@
 }
 
 .member-list .link {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   margin-right: 10px;
   width: 44px;
   height: 44px;
@@ -218,6 +203,7 @@
   background-position: center;
 }
 .member-list .link > .link-icon {
+  display: inline-block;
   fill: #afb1b8;
 }
 .member-list .link:hover > .link-icon,
@@ -244,10 +230,6 @@
 }
 .regular-clients .title {
   color: var(--primaty-text-color);
-}
-.regular-clients .link:hover,
-.regular-clients .link:focus {
-  color: var(--accent-color);
 }
 .client-logo {
   display: flex;

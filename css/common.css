@@ -126,43 +126,30 @@ img {
 }
 .site-nav .link:hover,
 .site-nav .link:focus,
-.link-nav .link:hover,
-.link-nav .link:focus {
+.item-link .link:hover,
+.item-link .link:focus {
   color: var(--accent-color);
 }
-.link-nav > .item > .link {
-  display: flex;
+.link-nav > .item-link > .link {
+  display: inline-block;
 }
 .link-nav {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
-.link-nav .item + .item {
+.link-nav .item-link + .item-link {
   margin-left: 30px;
 }
-.email::before {
-  display: block;
-  width: 16px;
-  height: 12px;
-  content: '';
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url('../images/symbol-defs.svg#envelope');
-  fill: #2f303a;
+/* --secondary-text-color  */
+.nav-icon {
+  display: inline-block;
+  fill: var(--secondary-text-color);
 }
-.tel::before {
-  display: block;
-  width: 10px;
-  height: 15px;
-  content: '';
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url('../images/smartphone.svg');
+.item-link:hover > .nav-icon,
+.item-link:focus > .nav-icon {
+  fill: var(--accent-color);
 }
-
 /* footer css */
 .footer {
   background-color: #2f303a;
