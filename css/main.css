@@ -231,6 +231,7 @@
 .regular-clients .title {
   color: var(--primaty-text-color);
 }
+/*  */
 .client-logo {
   display: flex;
   justify-content: center;

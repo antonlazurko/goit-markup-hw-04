@@ -178,11 +178,14 @@ img {
   color: var(--white-text-color);
 }
 .footer-social {
+  display: flex;
   padding-top: 21px;
   padding-bottom: 56px;
 }
 .footer-social__link {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 10px;
   width: 44px;
   height: 44px;
@@ -199,18 +202,9 @@ img {
 .footer-social__link:focus {
   background-color: var(--accent-color);
 }
-
-.footer-social__link--instagram {
-  background-image: url(../images/footer/instagram.svg);
-}
-.footer-social__link--twitter {
-  background-image: url(../images/footer/twitter.svg);
-}
-.footer-social__link--facebook {
-  background-image: url(../images/footer/facebook.svg);
-}
-.footer-social__link--linkedin {
-  background-image: url(../images/footer/linkedin.svg);
+.footer-social-icon {
+  display: inline-block;
+  fill: var(--white-text-color);
 }
 .contacts a {
   display: inline-block;
