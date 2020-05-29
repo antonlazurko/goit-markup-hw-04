@@ -289,11 +289,12 @@ img {
   background-color: var(--accent-color);
   color: var(--white-text-color);
 }
-.svgshka {
+.plane {
+  fill: var(--secondary-white-color);
   margin-left: 10px;
 }
-.input-button--submit:hover > .svgshka > .plane,
-.input-button--submit:focus > .svgshka > .plane {
+.input-button--submit:hover > .plane > .plane,
+.input-button--submit:focus > .plane > .plane {
   fill: #ffffff;
 }
 .subscribe {
