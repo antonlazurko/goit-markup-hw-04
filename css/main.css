@@ -83,6 +83,8 @@
 }
 .features-link {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
   background-color: #f5f4fa;
   width: 270px;
@@ -90,21 +92,7 @@
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-position: center;
-  /* outline: 1px tomato solid; */
 }
-.features-link .features-link--details {
-  background-image: url('../images/symbol-defs.svg#antenna');
-}
-.features-link--punctuality {
-  background-image: url('../images/studio_skills/clock.svg');
-}
-.features-link--planing {
-  background-image: url('../images/studio_skills/diagram.svg');
-}
-.features-link--modern_technology {
-  background-image: url('../images/studio_skills/astronaut.svg');
-}
-
 .features-list .title {
   margin-bottom: 10px;
   font-weight: 700;
