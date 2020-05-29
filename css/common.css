@@ -149,7 +149,8 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url('../images/mail_logo.svg');
+  background-image: url('../images/symbol-defs.svg#envelope');
+  fill: #2f303a;
 }
 .tel::before {
   display: block;

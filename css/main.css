@@ -81,6 +81,10 @@
   flex-direction: column;
   width: 278px;
 }
+.studio-skills-list.icon > .antenna {
+  width: 70px;
+  height: 70px;
+}
 .features-link:hover,
 .features-link:focus {
   background-color: var(--accent-color);
@@ -98,10 +102,10 @@
   /* outline: 1px tomato solid; */
 }
 .features-link--details {
-  background-image: url('../images/studio_skills/antenna.svg');
+  background-image: url('../images/symbol-defs.svg#antenna');
 }
 .features-link--punctuality {
-  background-image: url('../images/studio_skills/clock.svg');
+  background-image: url('../images/logo-svg-sprite/symbol-defs.svg#clock');
 }
 .features-link--planing {
   background-image: url('../images/studio_skills/diagram.svg');
@@ -251,7 +255,9 @@
   color: var(--accent-color);
 }
 .client-logo {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
@@ -264,29 +270,13 @@
 .client-logo:focus {
   border: 1px solid var(--accent-color);
 }
-.client-logo--client1 {
-  background-size: 44px 44px;
-  background-image: url('../images/clients/Client1.svg');
+.client-logo-icon {
+  display: inline-block;
+  fill: #afb1b8;
 }
-.client-logo--client2 {
-  background-size: 40px 52px;
-  background-image: url('../images/clients/Client2.svg');
-}
-.client-logo--client3 {
-  background-size: 41px 43px;
-  background-image: url('../images/clients/Client3.svg');
-}
-.client-logo--client4 {
-  background-size: 80px 42px;
-  background-image: url('../images/clients/Client4.svg');
-}
-.client-logo--client5 {
-  background-size: 59px 47px;
-  background-image: url('../images/clients/Client5.svg');
-}
-.client-logo--client6 {
-  background-size: 88px 45px;
-  background-image: url('../images/clients/Client6.svg');
+.client-logo:hover > .client-logo-icon,
+.client-logo:focus > .client-logo-icon {
+  fill: var(--accent-color);
 }
 
 /* button */
