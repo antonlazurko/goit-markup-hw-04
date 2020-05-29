@@ -217,21 +217,16 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.instagram {
-  background-image: url('../images/team/icons/instagram.svg');
+.member-list .link > .link-icon {
+  fill: #afb1b8;
 }
-.twitter {
-  background-image: url('../images/team/icons/twitter.svg');
-}
-.facebook {
-  background-image: url('../images/team/icons/facebook.svg');
-}
-.linkedin {
-  background-image: url('../images/team/icons/linkedin.svg');
+.member-list .link:hover > .link-icon,
+.member-list .link:focus > .link-icon {
+  fill: var(--white-text-color);
 }
 .member-list .link:hover,
 .member-list .link:focus {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 /* css для постоянные клиенты */
 .regular-clients-list {
