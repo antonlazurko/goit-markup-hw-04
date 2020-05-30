@@ -67,9 +67,7 @@
 .our-team-list,
 .regular-clients-list {
   display: flex;
-  /* flex-direction: row; */
   align-items: center;
-  /* justify-content: space-between; */
   padding: 0px;
 }
 
@@ -89,9 +87,6 @@
   background-color: #f5f4fa;
   width: 270px;
   height: 120px;
-  box-sizing: border-box;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 .features-list .title {
   margin-bottom: 10px;
