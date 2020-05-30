@@ -81,7 +81,7 @@
   flex-direction: column;
   width: 278px;
 }
-.features-link {
+.features-list .item::before {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,10 +89,17 @@
   background-color: #f5f4fa;
   width: 270px;
   height: 120px;
-  box-sizing: border-box;
-  background-repeat: no-repeat;
-  background-position: center;
+  content: url(../images/symbol-defs.svg#antenna);
 }
+/* .features-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+} */
 .features-list .title {
   margin-bottom: 10px;
   font-weight: 700;
