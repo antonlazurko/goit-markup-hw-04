@@ -146,9 +146,9 @@ img {
   display: inline-block;
   fill: var(--secondary-text-color);
 }
-.item-link:hover > .nav-icon,
-.item-link:focus > .nav-icon {
-  fill: var(--accent-color);
+.link:hover > .nav-icon,
+.link:focus > .nav-icon {
+  fill: currentcolor;
 }
 /* footer css */
 .footer {
