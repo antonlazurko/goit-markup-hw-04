@@ -120,8 +120,9 @@ img {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-.link-nav .link,
-.link-nav .link {
+.item-link .link {
+  display: flex;
+  align-items: center;
   color: var(--secondary-text-color);
 }
 .site-nav .link:hover,
@@ -130,7 +131,7 @@ img {
 .item-link .link:focus {
   color: var(--accent-color);
 }
-.link-nav > .item-link > .link {
+.link-nav > .link {
   display: inline-block;
 }
 .link-nav {
@@ -144,6 +145,8 @@ img {
 /* --secondary-text-color  */
 .nav-icon {
   display: inline-block;
+  margin-right: 10px;
+
   fill: var(--secondary-text-color);
 }
 .link:hover > .nav-icon,
