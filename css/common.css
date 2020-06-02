@@ -118,7 +118,18 @@ img {
   letter-spacing: 0.02em;
 }
 .site-nav .link.current {
+  position: relative;
   color: var(--accent-color);
+}
+.site-nav .link.current:after {
+  position: absolute;
+  content: '';
+  height: 4px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: currentColor;
+  border-radius: 2px;
 }
 .item-link .link {
   display: flex;
