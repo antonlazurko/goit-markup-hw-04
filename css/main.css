@@ -118,7 +118,15 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
+.what-we-do-list .card {
+  position: relative;
+}
+.what-we-do-list .card > .title-card {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
 .what-we-do-list .item {
   width: 380px;
 }
